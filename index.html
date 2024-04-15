@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./assets/css/styles.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	<title>Galeria Dinâmica</title>
+	<script src="./assets/js/index.js" defer></script>
+</head>
+
+<body>
+
+	<main>
+		<h1>Galeria Dinâmica</h1>
+
+		<label for="file-upload" class="custom-file-upload">
+			Escolher arquivo
+		</label>
+
+		<input id="file-upload" type="file" data-js-input-import="upload">
+
+		<div class="dropzone" data-js-dropzone="dropzone">
+			<div class="dropzone-content">
+				<span class="dropzone-icon">+</span>
+				<p class="dropzone-text">Arraste a imagem aqui, para importar automaticamente.</p>
+			</div>
+		</div>
+
+		<button data-js-button="add-image">Adicionar</button>
+
+		<div data-js-container="images" style="display: flex; flex-wrap: wrap; padding-top: 1em;">
+			<h2 data-js-message="empty-gallery">Nenhuma imagem</h2>
+		</div>
+
+		<div class="c-body__c-preloader" id="preloader" data-js-preloader="preloader">
+			<div class="c-body__c-loader" id="loader" data-js-loader="loader"></div>
+		</div>
+	</main>
+	<footer>
+		&copy;DevLarré
+		<div class="icons">
+			<a href="https://github.com/DevLarre" target="_blank" class="git-end" title="GitHub"><i
+					class="fa-brands fa-github"></i></a>
+			<a href="https://www.instagram.com/dev_larre?igsh=NXM0cWhuZjg2Z2d2&utm_source=qr" target="_blank"
+				class="insta-end" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/devlarre/" target="_blank" class="linke-end" title="Linkedin"><i
+					class="fa-brands fa-linkedin"></i></a>
+			<a href="mailto:dev.larre@outlook.com" target="_blank" rel="external" title="E-mail" class="mail-end">
+				<i class="fa-solid fa-envelope fa-lg"></i>
+			</a>
+			<a href="https://wa.me/5551981516928" target="_blank" rel="external" title="Whatsapp" class="whats-end">
+				<i class="fa-brands fa-whatsapp fa-lg"></i>
+			</a>
+
+		</div>
+	</footer>
+</body>
+
+</html>

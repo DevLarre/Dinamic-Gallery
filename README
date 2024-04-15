@@ -1,0 +1,32 @@
+# Galeria Dinâmica 📷
+
+Este é um projeto de uma Galeria Dinâmica, onde você pode adicionar imagens de forma simples e visualizá-las em uma galeria bonita e organizada.
+
+## Funcionalidades
+
+- Adicionar imagens clicando no botão "Escolher arquivo" ou arrastando e soltando na área designada.
+- Visualizar as imagens adicionadas na galeria.
+- Excluir imagens da galeria individualmente.
+- Pré-visualização das imagens antes de adicionar à galeria.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Como Usar
+
+1. Clone este repositório para o seu ambiente local.
+2. Abra o arquivo `index.html` em seu navegador.
+3. Clique no botão "Escolher arquivo" para selecionar imagens ou arraste e solte na área designada.
+4. As imagens selecionadas serão adicionadas à galeria automaticamente.
+5. Para excluir uma imagem, clique no botão "X" correspondente à imagem na galeria.
+
+## Contato
+
+Para mais informações ou feedback, entre em contato:
+
+- GitHub: [DevLarré](https://github.com/DevLarre)
+- Instagram: [dev_larre](https://www.instagram.com/dev_larre?igsh=NXM0cWhuZjg2Z2d2&utm_source=qr)
+- LinkedIn: [devlarre](https://www.linkedin.com/in/devlarre/)
